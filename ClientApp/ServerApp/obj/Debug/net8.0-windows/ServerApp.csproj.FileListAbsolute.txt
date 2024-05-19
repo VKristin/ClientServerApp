@@ -1,0 +1,17 @@
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\bin\Debug\net8.0-windows\ServerApp.exe
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\bin\Debug\net8.0-windows\ServerApp.deps.json
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\bin\Debug\net8.0-windows\ServerApp.runtimeconfig.json
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\bin\Debug\net8.0-windows\ServerApp.dll
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\bin\Debug\net8.0-windows\ServerApp.pdb
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.MainFormServer.resources
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.csproj.GenerateResource.cache
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.AssemblyInfoInputs.cache
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.AssemblyInfo.cs
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.csproj.CoreCompileInputs.cache
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.sourcelink.json
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.dll
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\refint\ServerApp.dll
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.pdb
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ServerApp.genruntimeconfig.cache
+D:\User\Documents\TestAppC#\ClientServerApp\ServerApp\ServerApp\obj\Debug\net8.0-windows\ref\ServerApp.dll
