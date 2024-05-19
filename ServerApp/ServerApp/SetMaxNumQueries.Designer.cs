@@ -84,6 +84,7 @@
             Controls.Add(btnStartServer);
             Controls.Add(lblMaxNumQueries);
             Name = "SetMaxNumQueries";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Максимальное количество запросов";
             ((System.ComponentModel.ISupportInitialize)nudMaxNumQueriesValue).EndInit();
             ResumeLayout(false);
@@ -94,7 +95,7 @@
 
         private Label lblMaxNumQueries;
         private Button btnStartServer;
-        private NumericUpDown nudMaxNumQueriesValue;
         private Button btnCancel;
+        private NumericUpDown nudMaxNumQueriesValue;
     }
 }

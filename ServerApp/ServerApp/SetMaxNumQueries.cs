@@ -12,6 +12,7 @@ namespace ServerApp
 {
     public partial class SetMaxNumQueries : Form
     {
+        public byte n { get; private set;  }
         public SetMaxNumQueries()
         {
             InitializeComponent();
@@ -19,6 +20,7 @@ namespace ServerApp
 
         private void btnStartServer_Click(object sender, EventArgs e)
         {
+            n = (byte)nudMaxNumQueriesValue.Value;
             this.DialogResult = DialogResult.OK;
         }
 

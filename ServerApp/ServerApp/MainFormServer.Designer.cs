@@ -39,7 +39,7 @@
             lblMaxNumQueriesValue = new Label();
             menuStrip1 = new MenuStrip();
             startServerTsm = new ToolStripMenuItem();
-            остановитьСерверToolStripMenuItem = new ToolStripMenuItem();
+            stopServerTsm = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)dgvClientQueries).BeginInit();
             gbStatus.SuspendLayout();
             menuStrip1.SuspendLayout();
@@ -57,6 +57,7 @@
             // lblServerStatusValue
             // 
             lblServerStatusValue.AutoSize = true;
+            lblServerStatusValue.ForeColor = Color.FromArgb(192, 0, 0);
             lblServerStatusValue.Location = new Point(105, 19);
             lblServerStatusValue.Name = "lblServerStatusValue";
             lblServerStatusValue.Size = new Size(73, 15);
@@ -121,6 +122,7 @@
             lblMaxNumQueries.Size = new Size(215, 15);
             lblMaxNumQueries.TabIndex = 2;
             lblMaxNumQueries.Text = "Максимальное количество запросов:";
+            lblMaxNumQueries.Visible = false;
             // 
             // lblMaxNumQueriesValue
             // 
@@ -130,10 +132,11 @@
             lblMaxNumQueriesValue.Size = new Size(13, 15);
             lblMaxNumQueriesValue.TabIndex = 3;
             lblMaxNumQueriesValue.Text = "0";
+            lblMaxNumQueriesValue.Visible = false;
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { startServerTsm, остановитьСерверToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { startServerTsm, stopServerTsm });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(784, 24);
@@ -147,12 +150,13 @@
             startServerTsm.Text = "Запустить сервер";
             startServerTsm.Click += startServerTsm_Click;
             // 
-            // остановитьСерверToolStripMenuItem
+            // stopServerTsm
             // 
-            остановитьСерверToolStripMenuItem.Name = "остановитьСерверToolStripMenuItem";
-            остановитьСерверToolStripMenuItem.Size = new Size(124, 20);
-            остановитьСерверToolStripMenuItem.Text = "Остановить сервер";
-            остановитьСерверToolStripMenuItem.Visible = false;
+            stopServerTsm.Name = "stopServerTsm";
+            stopServerTsm.Size = new Size(124, 20);
+            stopServerTsm.Text = "Остановить сервер";
+            stopServerTsm.Visible = false;
+            stopServerTsm.Click += stopServerTsm_Click;
             // 
             // MainFormServer
             // 
@@ -164,6 +168,7 @@
             Controls.Add(menuStrip1);
             MinimumSize = new Size(800, 330);
             Name = "MainFormServer";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Сервер";
             ((System.ComponentModel.ISupportInitialize)dgvClientQueries).EndInit();
             gbStatus.ResumeLayout(false);
@@ -187,6 +192,6 @@
         private ToolStripMenuItem startServerTsm;
         private Label lblMaxNumQueries;
         private Label lblMaxNumQueriesValue;
-        private ToolStripMenuItem остановитьСерверToolStripMenuItem;
+        private ToolStripMenuItem stopServerTsm;
     }
 }
