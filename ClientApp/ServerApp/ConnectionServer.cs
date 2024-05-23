@@ -94,19 +94,9 @@ namespace ClientApp
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                MessageBox.Show(ex.Message);
                 return false;
             }
         }
-
-
-        /*public async Task CloseClientConnection()
-        {
-            if (client != null && client.Connected)
-            {
-                //await SendRequestGetAnswer("END");
-                client.Close();
-            }
-        }*/
     }
 }
