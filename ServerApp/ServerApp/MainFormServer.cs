@@ -8,11 +8,11 @@ namespace ServerApp
             InitializeComponent();
         }
 
-        private void MainFormServer_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        /// <summary>
+        /// ћетод дл€ запуска сервера
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         async private void startServerTsm_Click(object sender, EventArgs e)
         {
             SetMaxNumQueries setMaxNumQueries = new SetMaxNumQueries();
@@ -20,7 +20,7 @@ namespace ServerApp
             if (dialogResult == DialogResult.OK)
             {
                 byte n = setMaxNumQueries.n;
-                server = new Server(8888, n); 
+                server = new Server(8888, n, this);
                 try
                 {
                     server.StartServer();
@@ -30,12 +30,16 @@ namespace ServerApp
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.ToString());
-                    return;
+                    //return;
                 }
             }
 
         }
 
+        /// <summary>
+        /// ”становка свойств, которые характерны запущенному серверу
+        /// </summary>
+        /// <param name="n"> оличество одновременно обробатываемых запросов</param>
         private void SetStartedServerDesigne(int n)
         {
             lblMaxNumQueriesValue.Text = n.ToString();
@@ -45,8 +49,12 @@ namespace ServerApp
             startServerTsm.Visible = false;
             lblMaxNumQueries.Visible = true;
             lblMaxNumQueriesValue.Visible = true;
+            clearLogsTsm.Visible = true;
         }
 
+        /// <summary>
+        /// ”становка свойств, которые характерны незапущенному серверу
+        /// </summary>
         private void SetStoppedServerDesigne()
         {
             lblServerStatusValue.Text = ServerStatus.Stoped;
@@ -55,8 +63,14 @@ namespace ServerApp
             startServerTsm.Visible = true;
             lblMaxNumQueries.Visible = false;
             lblMaxNumQueriesValue.Visible = false;
+            clearLogsTsm.Visible = false;
         }
 
+        /// <summary>
+        /// ћетод остановки сервера
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void stopServerTsm_Click(object sender, EventArgs e)
         {
             try
@@ -69,6 +83,17 @@ namespace ServerApp
                 MessageBox.Show(ex.ToString());
                 return;
             }
+        }
+
+        /// <summary>
+        /// ћетод дл€ очистки логов в консоли и на dgv
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void clearLogsTsm_Click(object sender, EventArgs e)
+        {
+            dgvClientQueries.Rows.Clear();
+            Console.Clear();
         }
     }
 }

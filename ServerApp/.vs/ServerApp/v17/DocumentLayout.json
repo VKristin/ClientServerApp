@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\mainformserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\mainformserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\datagridviewfiller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\datagridviewfiller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\mainformserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\mainformserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\serverapp\\serverapp\\serverclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\serverclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\serverapp\\serverapp\\mainformserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\mainformserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\serverapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\serverapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\serverapp\\serverapp\\serverstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\serverstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\answertextstaticclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\answertextstaticclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\serverapp\\serverapp\\stringanalizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\stringanalizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\stringanalizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\serverapp\\serverapp\\setmaxnumqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\setmaxnumqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\serverstatusstaticclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\serverstatusstaticclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\serverapp\\serverapp\\setmaxnumqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\setmaxnumqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\setmaxnumqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\serverapp\\serverapp\\mainformserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\mainformserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\serverapp\\setmaxnumqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ServerApp.csproj|solutionrelative:serverapp\\setmaxnumqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,84 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SetMaxNumQueries.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\SetMaxNumQueries.cs",
-              "RelativeDocumentMoniker": "ServerApp\\SetMaxNumQueries.cs",
-              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\SetMaxNumQueries.cs",
-              "RelativeToolTip": "ServerApp\\SetMaxNumQueries.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAvwBIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T12:44:32.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServerClass.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerClass.cs",
-              "RelativeDocumentMoniker": "ServerApp\\ServerClass.cs",
-              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerClass.cs",
-              "RelativeToolTip": "ServerApp\\ServerClass.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAIwD8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T12:06:33.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainFormServer.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\MainFormServer.cs",
-              "RelativeDocumentMoniker": "ServerApp\\MainFormServer.cs",
-              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\MainFormServer.cs",
-              "RelativeToolTip": "ServerApp\\MainFormServer.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvx8AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T12:20:27.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServerStatusEnum.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerStatusEnum.cs",
-              "RelativeDocumentMoniker": "ServerApp\\ServerStatusEnum.cs",
-              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerStatusEnum.cs",
-              "RelativeToolTip": "ServerApp\\ServerStatusEnum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:37:18.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StringAnalizer.cs",
-              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\StringAnalizer.cs",
-              "RelativeDocumentMoniker": "ServerApp\\StringAnalizer.cs",
-              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\StringAnalizer.cs",
-              "RelativeToolTip": "ServerApp\\StringAnalizer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T14:04:47.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SetMaxNumQueries.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\SetMaxNumQueries.cs",
-              "RelativeDocumentMoniker": "ServerApp\\SetMaxNumQueries.cs",
-              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\SetMaxNumQueries.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "ServerApp\\SetMaxNumQueries.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:07:13.878Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "MainFormServer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\MainFormServer.cs",
               "RelativeDocumentMoniker": "ServerApp\\MainFormServer.cs",
@@ -135,6 +70,121 @@
               "RelativeToolTip": "ServerApp\\MainFormServer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T12:46:58.977Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainFormServer.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\MainFormServer.cs",
+              "RelativeDocumentMoniker": "ServerApp\\MainFormServer.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\MainFormServer.cs",
+              "RelativeToolTip": "ServerApp\\MainFormServer.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAQwFgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:20:27.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerClass.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerClass.cs",
+              "RelativeDocumentMoniker": "ServerApp\\ServerClass.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerClass.cs",
+              "RelativeToolTip": "ServerApp\\ServerClass.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAqwHEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:06:33.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SetMaxNumQueries.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\SetMaxNumQueries.cs",
+              "RelativeDocumentMoniker": "ServerApp\\SetMaxNumQueries.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\SetMaxNumQueries.cs",
+              "RelativeToolTip": "ServerApp\\SetMaxNumQueries.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:44:32.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataGridViewFiller.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\DataGridViewFiller.cs",
+              "RelativeDocumentMoniker": "ServerApp\\DataGridViewFiller.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\DataGridViewFiller.cs",
+              "RelativeToolTip": "ServerApp\\DataGridViewFiller.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBoAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:09:12.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServerStatusStaticClass.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerStatusStaticClass.cs",
+              "RelativeDocumentMoniker": "ServerApp\\ServerStatusStaticClass.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerStatusStaticClass.cs",
+              "RelativeToolTip": "ServerApp\\ServerStatusStaticClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:37:18.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StringAnalizer.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\StringAnalizer.cs",
+              "RelativeDocumentMoniker": "ServerApp\\StringAnalizer.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\StringAnalizer.cs",
+              "RelativeToolTip": "ServerApp\\StringAnalizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:04:47.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnswerTextStaticClass.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\AnswerTextStaticClass.cs",
+              "RelativeDocumentMoniker": "ServerApp\\AnswerTextStaticClass.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\AnswerTextStaticClass.cs",
+              "RelativeToolTip": "ServerApp\\AnswerTextStaticClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:41:10.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServerApp",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerApp.csproj",
+              "RelativeDocumentMoniker": "ServerApp\\ServerApp.csproj",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\ServerApp.csproj",
+              "RelativeToolTip": "ServerApp\\ServerApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-20T07:57:25.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SetMaxNumQueries.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\SetMaxNumQueries.cs",
+              "RelativeDocumentMoniker": "ServerApp\\SetMaxNumQueries.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ServerApp\\ServerApp\\SetMaxNumQueries.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "ServerApp\\SetMaxNumQueries.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:07:13.878Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
             }
           ]

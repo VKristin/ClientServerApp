@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\clientapp\\serverapp\\mainformclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\clientapp\\serverapp\\richrextboxeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|solutionrelative:serverapp\\richrextboxeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|d:\\user\\documents\\testappc#\\clientserverapp\\clientapp\\serverapp\\mainformclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|solutionrelative:serverapp\\mainformclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\serverapp\\mainformclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|solutionrelative:serverapp\\mainformclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\serverapp\\connectionserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F9F2EB4-30BB-4385-BDE9-1F633D438669}|ServerApp\\ClientApp.csproj|solutionrelative:serverapp\\connectionserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RichRextBoxEditor.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\ServerApp\\RichRextBoxEditor.cs",
+              "RelativeDocumentMoniker": "ServerApp\\RichRextBoxEditor.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\ServerApp\\RichRextBoxEditor.cs",
+              "RelativeToolTip": "ServerApp\\RichRextBoxEditor.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:53:34.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConnectionServer.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\ServerApp\\ConnectionServer.cs",
+              "RelativeDocumentMoniker": "ServerApp\\ConnectionServer.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\ServerApp\\ConnectionServer.cs",
+              "RelativeToolTip": "ServerApp\\ConnectionServer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:18:46.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainFormClient.cs",
+              "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\ServerApp\\MainFormClient.cs",
+              "RelativeDocumentMoniker": "ServerApp\\MainFormClient.cs",
+              "ToolTip": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\ServerApp\\MainFormClient.cs",
+              "RelativeToolTip": "ServerApp\\MainFormClient.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwFIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:00:18.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainFormClient.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\User\\Documents\\TestAppC#\\ClientServerApp\\ClientApp\\ServerApp\\MainFormClient.cs",
               "RelativeDocumentMoniker": "ServerApp\\MainFormClient.cs",

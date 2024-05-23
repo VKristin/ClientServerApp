@@ -31,15 +31,17 @@
             lbServerStatus = new Label();
             lblServerStatusValue = new Label();
             dgvClientQueries = new DataGridView();
-            TimeOfQuery = new DataGridViewTextBoxColumn();
-            Query = new DataGridViewTextBoxColumn();
-            Answer = new DataGridViewTextBoxColumn();
             gbStatus = new GroupBox();
             lblMaxNumQueries = new Label();
             lblMaxNumQueriesValue = new Label();
             menuStrip1 = new MenuStrip();
             startServerTsm = new ToolStripMenuItem();
             stopServerTsm = new ToolStripMenuItem();
+            clearLogsTsm = new ToolStripMenuItem();
+            TimeOfQuery = new DataGridViewTextBoxColumn();
+            ClientAddress = new DataGridViewTextBoxColumn();
+            Query = new DataGridViewTextBoxColumn();
+            Answer = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvClientQueries).BeginInit();
             gbStatus.SuspendLayout();
             menuStrip1.SuspendLayout();
@@ -70,35 +72,14 @@
             dgvClientQueries.AllowUserToDeleteRows = false;
             dgvClientQueries.BackgroundColor = SystemColors.Control;
             dgvClientQueries.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvClientQueries.Columns.AddRange(new DataGridViewColumn[] { TimeOfQuery, Query, Answer });
+            dgvClientQueries.Columns.AddRange(new DataGridViewColumn[] { TimeOfQuery, ClientAddress, Query, Answer });
             dgvClientQueries.Dock = DockStyle.Fill;
             dgvClientQueries.GridColor = SystemColors.ScrollBar;
             dgvClientQueries.Location = new Point(0, 75);
             dgvClientQueries.Name = "dgvClientQueries";
             dgvClientQueries.ReadOnly = true;
-            dgvClientQueries.Size = new Size(784, 216);
+            dgvClientQueries.Size = new Size(884, 216);
             dgvClientQueries.TabIndex = 2;
-            // 
-            // TimeOfQuery
-            // 
-            TimeOfQuery.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            TimeOfQuery.HeaderText = "Время";
-            TimeOfQuery.Name = "TimeOfQuery";
-            TimeOfQuery.ReadOnly = true;
-            // 
-            // Query
-            // 
-            Query.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Query.HeaderText = "Запрос";
-            Query.Name = "Query";
-            Query.ReadOnly = true;
-            // 
-            // Answer
-            // 
-            Answer.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Answer.HeaderText = "Ответ";
-            Answer.Name = "Answer";
-            Answer.ReadOnly = true;
             // 
             // gbStatus
             // 
@@ -110,7 +91,7 @@
             gbStatus.Location = new Point(0, 24);
             gbStatus.Margin = new Padding(0);
             gbStatus.Name = "gbStatus";
-            gbStatus.Size = new Size(784, 51);
+            gbStatus.Size = new Size(884, 51);
             gbStatus.TabIndex = 3;
             gbStatus.TabStop = false;
             // 
@@ -136,10 +117,10 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { startServerTsm, stopServerTsm });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { startServerTsm, stopServerTsm, clearLogsTsm });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(784, 24);
+            menuStrip1.Size = new Size(884, 24);
             menuStrip1.TabIndex = 4;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -158,15 +139,51 @@
             stopServerTsm.Visible = false;
             stopServerTsm.Click += stopServerTsm_Click;
             // 
+            // clearLogsTsm
+            // 
+            clearLogsTsm.Name = "clearLogsTsm";
+            clearLogsTsm.Size = new Size(100, 20);
+            clearLogsTsm.Text = "Очистить логи";
+            clearLogsTsm.Visible = false;
+            clearLogsTsm.Click += clearLogsTsm_Click;
+            // 
+            // TimeOfQuery
+            // 
+            TimeOfQuery.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            TimeOfQuery.HeaderText = "Время";
+            TimeOfQuery.Name = "TimeOfQuery";
+            TimeOfQuery.ReadOnly = true;
+            // 
+            // ClientAddress
+            // 
+            ClientAddress.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            ClientAddress.HeaderText = "Клиент";
+            ClientAddress.Name = "ClientAddress";
+            ClientAddress.ReadOnly = true;
+            // 
+            // Query
+            // 
+            Query.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Query.HeaderText = "Запрос";
+            Query.Name = "Query";
+            Query.ReadOnly = true;
+            // 
+            // Answer
+            // 
+            Answer.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Answer.HeaderText = "Ответ";
+            Answer.Name = "Answer";
+            Answer.ReadOnly = true;
+            // 
             // MainFormServer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(784, 291);
+            ClientSize = new Size(884, 291);
             Controls.Add(dgvClientQueries);
             Controls.Add(gbStatus);
             Controls.Add(menuStrip1);
-            MinimumSize = new Size(800, 330);
+            MinimumSize = new Size(900, 330);
             Name = "MainFormServer";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Сервер";
@@ -183,15 +200,17 @@
 
         private Label lbServerStatus;
         private Label lblServerStatusValue;
-        private DataGridView dgvClientQueries;
         private GroupBox gbStatus;
-        private DataGridViewTextBoxColumn TimeOfQuery;
-        private DataGridViewTextBoxColumn Query;
-        private DataGridViewTextBoxColumn Answer;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem startServerTsm;
         private Label lblMaxNumQueries;
         private Label lblMaxNumQueriesValue;
         private ToolStripMenuItem stopServerTsm;
+        public DataGridView dgvClientQueries;
+        private ToolStripMenuItem clearLogsTsm;
+        private DataGridViewTextBoxColumn TimeOfQuery;
+        private DataGridViewTextBoxColumn ClientAddress;
+        private DataGridViewTextBoxColumn Query;
+        private DataGridViewTextBoxColumn Answer;
     }
 }

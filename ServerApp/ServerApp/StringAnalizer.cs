@@ -8,9 +8,15 @@ namespace ServerApp
 {
     static class StringAnalizer
     {
-        public static string IsStringPolindrome(string str)
+        /// <summary>
+        /// Метод, который проверяет, являесят ли строка полиндромом*
+        /// * - считает все символы (пробелы, знаки препинания)
+        /// </summary>
+        /// <param name="str">проверяемая строка</param>
+        /// <returns></returns>
+        public static bool IsStringPolindrome(string str)
         {
-            return "";
+            return str.SequenceEqual(str.Reverse());
         }
     }
 }
